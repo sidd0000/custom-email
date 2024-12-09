@@ -154,7 +154,7 @@ app.get('/emails', authenticate, async (req, res) => {
         await connection.openBox('INBOX');
         console.log("Inbox opened");
 
-        // Retrieve emails SINCE the last 7 days for optimization
+        // Retrieve emails SINCE the last 1 year for optimization
         const sinceDate = new Date();
         sinceDate.setDate(sinceDate.getDate() - 356);
         console.log(`Fetching emails since: ${sinceDate.toISOString()}`);
