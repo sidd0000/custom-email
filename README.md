@@ -88,7 +88,7 @@ GET /emails
 Headers: Authorization: Bearer <JWT Token>
 Retrieves emails using the IMAP protocol (fetches emails since the last 356 days).
  FOR TESTING THIS , OPEN POSTMAN OR THUNDERCLIENT , PUT THE PORT ADDRESS AND TEST ON THE API POINTS 
-###TROUBLESHOOTING
+## TROUBLESHOOTING
 Troubleshooting
 Ensure that your SMTP settings (host, port, username, and password) are correct.
 Make sure 2-Step Verification and App Passwords are correctly configured for Gmail if using Gmail for SMTP.
